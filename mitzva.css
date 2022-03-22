@@ -1,0 +1,18 @@
+.container{
+    height: auto;
+    color: #d62828;
+    background-color: #003049;
+    text-align: center;
+    margin: 100px;
+   
+  }
+  
+  
+  .one, .two{
+    background-color: #f77f00 ;
+    color:#003049 ;
+  }
+  
+  @media all and (min-width: 800px) {
+  }
+  
