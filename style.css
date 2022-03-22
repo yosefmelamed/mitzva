@@ -1,18 +1,37 @@
 .container{
-    height: auto;
-    color: #d62828;
-    background-color: #003049;
-    text-align: center;
-    margin: 100px;
-   
-  }
+  height: 300px;
+  width: 500px;
+  border: 5px solid white;
+  padding: 50px;
+  margin: 20px;
+  color: #d62828;
+  background-color: #003049;
+  text-align: center;
+ }
+
+
+.one, .two{
+  background-color: #f77f00 ;
+  color:#003049 ;
+}
+
+@media all and (max-width: 800px) {
+
+.container{
+  height: auto;
+  width: 1000px;
+  border: 5px solid white;
+  padding: 50px;
+  margin: 20px;
+  color: #d62828;
+  background-color: #003049;
+  text-align: center;
+  font-size: 50px;
+ }
+
+.one, .two{
+  font-size: 50px;
+}
   
-  
-  .one, .two{
-    background-color: #f77f00 ;
-    color:#003049 ;
-  }
-  
-  @media all and (min-width: 800px) {
-  }
+}
   
